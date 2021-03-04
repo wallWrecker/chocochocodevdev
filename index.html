@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Landing Page Using Bulma</title>
+  <!-- Bulma css from node_modules -->
+  <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+  <!-- Fontawesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <!-- My Own Style -->
+  <link rel="stylesheet" href="css/index_style.css">
+</head>
+<body>
+  <main class="container-fluid">
+    <nav class="navbar has-background-dark px-1 py-1">
+      <div class="navbar-brand">
+        <p class="navbar-item subtitle is-text-5 has-text-light">
+          <span class="has-text-danger"> < </span>
+          <b>ChocoChocoDevDev</b>
+          <span class="has-text-danger"> /> </span>
+        </p>
+      </div>
+
+      <div class="navbar-menu">
+        <!-- Navbar start -->
+
+        <!-- Navbar end -->
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a href="#" class="has-text-danger text-boldie">Home</a>
+          </div>
+          <div class="navbar-item">
+            <a href="#services-section" class="has-text-light text-boldie">Services</a>
+          </div>
+          <div class="navbar-item">
+            <a href="#" class="has-text-light text-boldie">About</a>
+          </div>
+      </div>
+    </nav>
+
+    <section id="home-section" class="hero is-medium is-link py-1">
+      <div class="hero-body">
+        <h3 class="title has-text-centered">Level up your business with an awesome website</h3>
+        <div class="container has-text-centered">
+          <p class="subtitle">
+            It is a long established fact that a reader will be distracted by the readable content of 
+            a page when looking at its layout. 
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+            as opposed to using 'Content here, 
+            content here', making it look like readable English.
+          </p>
+          <div class="block py-4">
+            <button class="button is-danger get-started-button">Get Started Now.</button>
+          </div>
+          <div class="block arrow bounce">
+            <a href="#services-section" class="fa fa-arrow-down fa-2x"></a> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section has-background-link-light">
+      <div id="services-section" class="container">
+        <h3 class="title has-text-link has-text-centered">Offered Services</h3>
+        <div class="columns">
+          <div class="column">
+            <div class="card p-1">
+              <div class="card-content">
+                <div class="card-image image is-3by2">
+                  <img 
+                    src="https://image.freepik.com/free-vector/code-typing-concept-illustration_114360-3866.jpg" 
+                    alt="Website development image" 
+                    >
+                </div>
+
+                <div class="content">
+                  <h5 class="is-size-5 py-2 has-text-danger">Website Development</h5>
+                  <p class="has-text-dark">
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+                    as opposed to using 'Content here, content here', making it look like readable English.
+                  </p>
+                  <a
+                    href="#" 
+                    class="button is-outlined is-danger is-small">
+                    Learn more.</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card p-1">
+              <div class="card-content">
+                <div class="card-image image is-3by2">
+                  <img 
+                    class=""
+                    src="https://image.freepik.com/free-vector/online-shopping-concept-illustration_114360-1084.jpg" 
+                    alt="Shopify development image">
+                </div>
+              
+                <div class="content">
+                  <h5 class="is-size-5 py-2 has-text-danger">Shopify Development</h5>
+                  <p class="has-text-dark">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution.
+                  </p>
+                  <a
+                    href="#" 
+                    class="button is-outlined is-danger is-small">
+                    Learn more.
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card p-1">
+              <div class="card-content">
+              <div class="card-image image is-3by2">
+                <img 
+                  src="https://image.freepik.com/free-vector/mobile-testing-concept-illustration_114360-1564.jpg" 
+                  alt="User Interface User Expirience image">
+              </div>
+              
+                <div class="content">
+                  <h5 class="is-size-5 py-2 has-text-danger">UI/UX Development</h5>
+                  <p class="has-text-dark">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+                    as opposed to using 'Content here, content here', making it look like readable English.
+                  </p>
+                  <a
+                    href="#" 
+                    class="button is-outlined is-danger is-small">
+                    Learn more.</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
